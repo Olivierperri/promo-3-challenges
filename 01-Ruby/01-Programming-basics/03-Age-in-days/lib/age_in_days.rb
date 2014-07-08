@@ -11,7 +11,3 @@ return delta.to_i
 end
 
 #TODO: return the age expressed in days given the day, month, and year of birth
-
-#  a = day
-# b = DateTime.parse ("day", "month", "year")
-#  puts "#{b}-{a}"
