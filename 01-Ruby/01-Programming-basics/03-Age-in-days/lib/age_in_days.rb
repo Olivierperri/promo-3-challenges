@@ -1,8 +1,17 @@
 # This "require" line loads the contents of the 'date' file from the standard
 # Ruby library, giving you access to the Date class.
+
 require 'date'
 
-
 def age_in_days(day, month, year)
-  #TODO: return the age expressed in days given the day, month, and year of birth
+
+date_reformatee = Date.new(year,month,day)
+delta = Date.today - date_reformatee
+return delta.to_i
 end
+
+#TODO: return the age expressed in days given the day, month, and year of birth
+
+#  a = day
+# b = DateTime.parse ("day", "month", "year")
+#  puts "#{b}-{a}"
