@@ -1,5 +1,6 @@
 def bank_score
   rand(16..21)
+  #(16..21)to_a_sample
   # TODO: Use Random to get a new random score
 end
 
