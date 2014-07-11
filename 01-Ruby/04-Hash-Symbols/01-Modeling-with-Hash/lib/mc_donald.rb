@@ -28,9 +28,9 @@ calories = {
 "Sprite" => 170,
 "French fries" => 130,
 "Potatoes" => 130,
-"Happy Meal" => 580,
-"Best Of Big Mac" => 590,
-"Best Of Royal Cheese" => 430
+"Happy Meal" => poor_calories_counter("Cheese Burger", "French fries", "Coca"),
+"Best Of Big Mac" => poor_calories_counter("Big Mac", "French fries", "Coca"),
+"Best Of Royal Cheese" => poor_calories_counter("Royal Cheese", "Potatoes", "Sprite")
 }
 
   total_calories = 0
