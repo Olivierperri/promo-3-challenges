@@ -41,6 +41,7 @@ end
   attempt = attempt.upcase
   attempt_array = attempt.split("")
   attempt_array.all? { |x| grid.include?(x)}
+  #attempt_array.all? { |x| attempt_array.count(x) <= grid.count(grid)}
   end
 
   def translation(attempt)
