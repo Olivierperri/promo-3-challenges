@@ -25,6 +25,8 @@ class BankAccount
   end
 
   def withdraw(amount)
+    add_transaction
+    return "the withdrawn amount is #{amount}"
     # TODO: Call add_transaction with the right argument
     # TODO: returns a string with a message
   end
@@ -40,6 +42,7 @@ class BankAccount
   end
 
   def iban
+    iban.scan
     # TODO: Hide the middle of the IBAN like FR14**************606 and return it
   end
 
@@ -51,6 +54,7 @@ class BankAccount
   private
 
   def add_transaction(amount)
+
     # TODO: add the amount in the transactions array
     # TODO: update the current position (which represents the balance of the account)
   end
