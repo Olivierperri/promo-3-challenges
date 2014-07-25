@@ -31,7 +31,7 @@ end
 def top_five_rock_artists(db)
 db.execute("SELECT Artist.Name, Count(Track.TrackId) AS nb_track
               FROM Artist
-              JOIN Album ON Artist.ArtistId = Album.ArtistId
+              JOIN Album ON Album.ArtistId = Artist.ArtistId
               JOIN Track ON Track.AlbumId = Album.ArtistId
               JOIN Genre ON Genre.GenreId = Track.GenreId
               WHERE Genre.Name like 'rock'
