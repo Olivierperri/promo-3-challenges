@@ -39,18 +39,19 @@ end
 
 def update_post(db, id, name)
   #TODO: update a post's name in your db
-  db.execute("UPDATE news
+  puts db.execute("UPDATE news
           SET name = #{name}
           WHERE id = #{id}")
 end
 
 def delete_posts(db)
   #TODO: delete a post in your db
-  db.execute("DELETE FROM news")
+  puts db.execute("DELETE FROM news")
 end
 
 def delete_post(db, id)
   #TODO: delete a specific post in your db
-  db.execute("DELETE FROM news
+  puts db.execute("DELETE FROM news
           WHERE id = #{id}")
 end
+
