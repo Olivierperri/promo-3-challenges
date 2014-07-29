@@ -11,6 +11,7 @@ def ask(prompt)
   gets.to_s.chomp
 end
 
+
 def create_post(user)
   name = ask('Name:')
   source_url = ask('Source URL:')
