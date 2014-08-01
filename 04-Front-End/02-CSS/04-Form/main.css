@@ -1,6 +1,88 @@
-.container {
-  margin: 0 auto;  
-  width: 840px;
+body {
+ background-image: url("http://webneel.com/wallpaper/sites/default/files/images/04-2013/indian-beach-wallpaper.jpg")
 }
 
-/*Add some CSS rules to design your form */ 
+.container {
+  margin: 0 auto;
+  width: 900px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-content {
+  margin: 0 auto;
+  width: 840px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+header {
+background: black;
+color: white;
+position:fixed;
+right: 0;
+left: 0;
+z-index: 10;
+padding: 0;
+top: 0;
+}
+
+
+header h1 {
+display: inline-block;
+width: 400px;
+margin-top: 0em;
+margin-bottom: 0em;
+}
+
+
+nav a {
+display: inline-block;
+width: 100px;
+line-height: 100px;
+color: white;
+}
+
+nav{
+  display: inline-block;
+}
+
+
+.content {
+margin-top: 7em;
+line-height: 100px;
+
+}
+
+.post {
+background: #00CCFF;
+display: inline-block;
+width: 250px;
+padding: 0;
+text-align: center;
+border-radius: 50px;
+}
+
+input {
+background: #00BFFF;
+display: inline-block;
+height: 30px;
+text-align: center;
+border-radius: 50px;
+float:right;
+}
+
+input:hover {
+  background: #FF00FF;
+}
+
+.post:hover {
+  background: #FF00FF;
+}
+
+#heidi {
+  text-align: center;
+
+}
+
+
