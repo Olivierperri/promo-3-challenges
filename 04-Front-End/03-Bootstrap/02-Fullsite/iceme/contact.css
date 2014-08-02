@@ -1,0 +1,77 @@
+body {
+background-image: url("http://www.iceme.fr/images/grid.jpg");
+font-family: 'Open Sans';
+margin: 0;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar .navbar-nav !> li > a:hover,
+.navbar .navbar-nav > li > a:active,
+.navbar .navbar-nav > li > a:focus,
+.navbar .navbar-nav > .open > a,
+.navbar .navbar-nav > .open > a:hover,
+.navbar .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.vertical-spacer {
+  height: 8em;
+}
+
+iframe {
+  width: 100%;
+}
+
+.playlist {
+  padding-top: 10em;
+}
+.parfumes {
+  padding-top: 8em;
+  padding-bottom: 8em;
+}
+
+.height-wrapper{
+  height: 600px;
+}
+.overflow-wrapper{
+  width: 100%;
+  overflow: hidden;
+}
+.overflow-wrapper > video {
+  min-width: 1600px;
+}
+
+
+
+
+
+footer {
+background-color: #222;
+color: #aaaaaa;
+padding-top: 3em;
+padding-bottom: 3em
+}
+
+
+.list_inline {
+padding-left: 0;
+margin-left: -5px;
+list-style: none;
+}
+
+.social a {
+  font-size: 24px;
+  color: #ccc;
+}
+
+
