@@ -12,13 +12,14 @@ function run_challenges() {
 
 
   // Ex 2. Fill the content of the email input with your email
-  // var e = $("#email").replaceWith('olivierperri73@gmail.com');
-  $("#email").attr('value', 'olivierperri73@gmail.com');
+  // $("#email").attr('value', 'olivierperri73@gmail.com');
+  $("#email").val('olivierperri73@gmail.com');
 
 
   // Ex 3. Replace the email hint (next to the input) with 'This is my email now'
   //       The text should be emphasized using a <strong> tag
   document.getElementById('email-hint').innerHTML = "<strong>This is my email now</strong>";
+  // ('email-hint').html("<strong>This is my email now</strong>");
 
   // Ex 4. Add the .blue CSS class to the table header cells (th elements)
   $('table th').addClass('blue');
