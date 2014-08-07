@@ -20,19 +20,15 @@ $(document).ready(function() {
   });
 });
 
-
-
-// $('.active').on('keyup', function(event) {
-//    $alert(event.keyCode)
-//     $('.active').animate({
-//             left: '20px',
-//     });
-//   });
-// });
-
-
-
 //Click event to restart the game
 $(".restart-btn").on('click', function () {
-    restartplay();
+$('#player1_race .active').removeClass('active');
+$('#player1_race td').eq(0).addClass('active');
+$('#player2_race .active').removeClass('active');
+$('#player2_race td').eq(0).addClass('active');
 });
+
+//Message for the winner
+// $(".restart-btn").on('click', function () {
+
+// });
